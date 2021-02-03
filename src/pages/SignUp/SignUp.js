@@ -1,4 +1,4 @@
-import { InfoSection, Pricing } from '../../components';
+import { InfoSection } from '../../components';
 import { homeObjThree } from './Data';
 const Home = () => {
   return (
