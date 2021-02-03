@@ -1,9 +1,12 @@
 import { InfoSection, Pricing } from '../../components';
-import { homeObjThree } from './Data';
+import { homeObjTwo, homeObjThree, homeObjFour } from './Data';
 const Home = () => {
   return (
     <>
+      <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
+      <Pricing />
+      <InfoSection {...homeObjFour} />
     </>
   );
 };
