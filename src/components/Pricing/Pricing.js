@@ -22,7 +22,7 @@ const Pricing = () => {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Our Services</PricingHeading>
+          <PricingHeading>Nossos Serviços</PricingHeading>
           <PricingContainer>
             <PricingCard to="/sign-up">
               <PricingCardInfo>
@@ -31,13 +31,15 @@ const Pricing = () => {
                 </PricingCardIcon>
                 <PricingCardPlan>Starter Pack</PricingCardPlan>
                 <PricingCardCost>R$99.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardLength>por mês</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>100 New Users</PricingCardFeature>
-                  <PricingCardFeature>R$10,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
+                  <PricingCardFeature>100 Novos Usuarios</PricingCardFeature>
+                  <PricingCardFeature>Orçamento de R$10,000</PricingCardFeature>
+                  <PricingCardFeature>
+                    Análise de retargeting
+                  </PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Escolha o plano</Button>
               </PricingCardInfo>
             </PricingCard>
 
@@ -48,13 +50,13 @@ const Pricing = () => {
                 </PricingCardIcon>
                 <PricingCardPlan>Gold Rush</PricingCardPlan>
                 <PricingCardCost>R$299.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardLength>por mês</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>1000 New Users</PricingCardFeature>
-                  <PricingCardFeature>R$50,000 Budget</PricingCardFeature>
+                  <PricingCardFeature>1000 Novos Usuarios</PricingCardFeature>
+                  <PricingCardFeature>Orçamento de R$50,000</PricingCardFeature>
                   <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Escolha o plano</Button>
               </PricingCardInfo>
             </PricingCard>
 
@@ -65,13 +67,13 @@ const Pricing = () => {
                 </PricingCardIcon>
                 <PricingCardPlan>Diamong Kings</PricingCardPlan>
                 <PricingCardCost>R$999.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardLength>por mês</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                  <PricingCardFeature>Unlimited Budget</PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
+                  <PricingCardFeature>Usuarios Ilimitados</PricingCardFeature>
+                  <PricingCardFeature>Orçamento ilimitado</PricingCardFeature>
+                  <PricingCardFeature>24/7 Suporte</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Escolha o plano</Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>

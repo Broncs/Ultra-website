@@ -42,22 +42,28 @@ const Navbar = () => {
           <NavbarContainer>
             <NavLogo to="/" onClick={closeMobileMenu}>
               <NavIcon />
-              ULTRA
+              UAGENCY
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to="/">Home</NavLinks>
+                <NavLinks exact to="/" activeClassName="actived">
+                  Inicio
+                </NavLinks>
               </NavItem>
 
               <NavItem>
-                <NavLinks to="/services">Services</NavLinks>
+                <NavLinks to="/services" activeClassName="actived">
+                  Serviços
+                </NavLinks>
               </NavItem>
 
               <NavItem>
-                <NavLinks to="/products">Products</NavLinks>
+                <NavLinks to="/products" activeClassName="actived">
+                  Produtos
+                </NavLinks>
               </NavItem>
               <NavItemBtn>
                 {button ? (

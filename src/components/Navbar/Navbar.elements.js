@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { FaMagento } from 'react-icons/fa';
 import styled from 'styled-components';
 import { Container } from '../../globalStyles';
@@ -87,7 +87,7 @@ export const NavItem = styled.li`
   }
 `;
 
-export const NavLinks = styled(Link)`
+export const NavLinks = styled(NavLink)`
   color: #fff;
   display: flex;
   align-items: center;
@@ -95,11 +95,20 @@ export const NavLinks = styled(Link)`
   padding: 0.5rem 1rem;
   height: 100%;
 
+  &.actived {
+    border-bottom: 2px solid #4b59f7;
+  }
+
   @media screen and (max-width: 960px) {
     text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
+
+    &.actived {
+      border-bottom: none;
+      color: #4b59f7;
+    }
 
     &:hover {
       color: #4b59f7;
