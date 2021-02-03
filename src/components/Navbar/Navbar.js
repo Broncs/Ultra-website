@@ -42,7 +42,7 @@ const Navbar = () => {
           <NavbarContainer>
             <NavLogo to="/" onClick={closeMobileMenu}>
               <NavIcon />
-              ULTRA
+              UAGENCY
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -50,19 +50,19 @@ const Navbar = () => {
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
                 <NavLinks exact to="/" activeClassName="actived">
-                  Home
+                  Inicio
                 </NavLinks>
               </NavItem>
 
               <NavItem>
                 <NavLinks to="/services" activeClassName="actived">
-                  Services
+                  Serviços
                 </NavLinks>
               </NavItem>
 
               <NavItem>
                 <NavLinks to="/products" activeClassName="actived">
-                  Products
+                  Produtos
                 </NavLinks>
               </NavItem>
               <NavItemBtn>

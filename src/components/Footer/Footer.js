@@ -33,52 +33,54 @@ const Footer = () => {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membershoip to receive the latest news and trends
+          Junte-se à nossa assinatura exclusiva para receber as últimas notícias
+          e tendências
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at anu time.</FooterSubText>
+        <FooterSubText>
+          Você pode cancelar a assinatura a qualquer momento.
+        </FooterSubText>
         <Form>
           <FormInput name="email" type="email" placeholder="Seu Email" />
-          <Button fontBig>Subscribe</Button>
+          <Button fontBig>Se inscrever</Button>
         </Form>
       </FooterSubscription>
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinksItems>
-            <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
-            <FooterLink to="/">Careers</FooterLink>
-            <FooterLink to="/">Investors</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
+            <FooterLinkTitle>Sobre nós</FooterLinkTitle>
+            <FooterLink to="/sign-up">Como funciona</FooterLink>
+            <FooterLink to="/">Testemunhos</FooterLink>
+            <FooterLink to="/">Carreiras</FooterLink>
+            <FooterLink to="/">Investidores</FooterLink>
+            <FooterLink to="/">Termos de serviço</FooterLink>
           </FooterLinksItems>
 
           <FooterLinksItems>
-            <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
-            <FooterLink to="/">Careers</FooterLink>
-            <FooterLink to="/">Investors</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
+            <FooterLinkTitle>Contate-Nos</FooterLinkTitle>
+            <FooterLink to="/sign-up">Contato</FooterLink>
+            <FooterLink to="/">Suporte</FooterLink>
+            <FooterLink to="/">Destinos</FooterLink>
+            <FooterLink to="/">patrocínios</FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
 
         <FooterLinksWrapper>
           <FooterLinksItems>
             <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
-            <FooterLink to="/">Careers</FooterLink>
-            <FooterLink to="/">Investors</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
+            <FooterLink to="/sign-up">Enviar Vídeo</FooterLink>
+            <FooterLink to="/">Embaixadores</FooterLink>
+            <FooterLink to="/">agência</FooterLink>
+            <FooterLink to="/">influenciador</FooterLink>
+            <FooterLink to="/">Colaboradores</FooterLink>
           </FooterLinksItems>
 
           <FooterLinksItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
+            <FooterLinkTitle>Mídia social</FooterLinkTitle>
+            <FooterLink to="/sign-up">Instagram</FooterLink>
+            <FooterLink to="/">Facebook</FooterLink>
             <FooterLink to="/">Careers</FooterLink>
-            <FooterLink to="/">Investors</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
+            <FooterLink to="/">Youtube</FooterLink>
+            <FooterLink to="/">Twitter</FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
@@ -86,9 +88,9 @@ const Footer = () => {
         <SocialMediaWrap>
           <SocialLogo to="/">
             <SocialIcon />
-            ULTRA
+            UAGENCY
           </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
+          <WebsiteRights>UAGENCY © 2020</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href="/" target="_blank" aria-label="Facebook">
               <FaFacebook />
