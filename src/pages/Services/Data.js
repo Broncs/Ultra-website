@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightTopLine: true,
   lightTextDesc: true,
 
-  buttonLabel: 'Get Started',
+  buttonLabel: 'Comece agora',
   description:
     'Ajudamos os proprietários de empresas a aumentar sua receita. Nossa equipe de especialistas exclusivos pode ajudá-lo a alcançar seus objetivos de negócios',
   headline: 'Especialista em geração de leads para negócios online',
@@ -23,7 +23,7 @@ export const homeObjTwo = {
   lightTopLine: false,
   lightTextDesc: false,
 
-  buttonLabel: 'Get Started',
+  buttonLabel: 'Comece agora',
   description:
     'Ideal customer profile, ou persona, é a representação fictícia do seu cliente ideal. Ela é baseada em dados reais sobre comportamento e características demográficas dos seus clientes, assim como uma criação de suas histórias pessoais, motivações, objetivos, desafios e preocupações.',
   headline:
@@ -42,7 +42,7 @@ export const homeObjThree = {
   lightTopLine: true,
   lightTextDesc: true,
 
-  buttonLabel: 'Get Started',
+  buttonLabel: 'Comece agora',
   description:
     'A jornada de compra (buyer journey) é basicamente o caminho que um determinado perfil de cliente percorre antes de comprar. É formada por “etapas padrão” que todos os compradores passam, muitas vezes sem mesmo perceber que estão passando por elas. Com a identificação da etapa exata em que o prospect se encontra, é possível ajudá-lo a encontrar a solução que mais se adeque à suas necessidades.',
   headline: 'Analisamos como o consumidor pensa, pesquisa e toma decisões.',
@@ -60,7 +60,7 @@ export const homeObjFour = {
   lightTopLine: true,
   lightTextDesc: true,
 
-  buttonLabel: 'Get Started',
+  buttonLabel: 'Comece agora',
   description:
     'Com esses dados em mãos, nós atraímos prospects qualificados, oferecemos contéudo relevante para convertê-los em leads, nos relacionamos para transformá-los em oportunidades e encantamos para torná-los clientes fiéis.',
   headline: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
