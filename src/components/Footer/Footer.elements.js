@@ -141,7 +141,10 @@ export const SocialLogo = styled(Link)`
   font-size: 2rem;
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+
+  @media screen and (max-width: 820px) {
+    margin-bottom: 16px;
+  }
 `;
 
 export const SocialIcon = styled(FaMagento)`
@@ -150,7 +153,10 @@ export const SocialIcon = styled(FaMagento)`
 
 export const WebsiteRights = styled.small`
   color: #fff;
-  margin-bottom: 16px;
+
+  @media screen and (max-width: 820px) {
+    margin-bottom: 16px;
+  }
 `;
 
 export const SocialIcons = styled.div`

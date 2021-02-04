@@ -84,13 +84,14 @@ const Footer = () => {
           </FooterLinksItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
+
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to="/">
             <SocialIcon />
             UAGENCY
           </SocialLogo>
-          <WebsiteRights>UAGENCY © 2020</WebsiteRights>
+          <WebsiteRights>UAGENCY © 2021</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href="/" target="_blank" aria-label="Facebook">
               <FaFacebook />

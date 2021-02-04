@@ -47,7 +47,7 @@ export const homeObjThree = {
     'A jornada de compra (buyer journey) é basicamente o caminho que um determinado perfil de cliente percorre antes de comprar. É formada por “etapas padrão” que todos os compradores passam, muitas vezes sem mesmo perceber que estão passando por elas. Com a identificação da etapa exata em que o prospect se encontra, é possível ajudá-lo a encontrar a solução que mais se adeque à suas necessidades.',
   headline: 'Analisamos como o consumidor pensa, pesquisa e toma decisões.',
   lightText: true,
-  topLine: 'Mapreamento da Jornada de Compra',
+  topLine: 'Mapeamento da Jornada de Compra',
   img: require('../../images/svg-2.svg').default,
   alt: 'Image',
   start: '',
@@ -62,10 +62,10 @@ export const homeObjFour = {
 
   buttonLabel: 'Comece agora',
   description:
-    'Com esses dados em mãos, nós atraímos prospects qualificados, oferecemos contéudo relevante para convertê-los em leads, nos relacionamos para transformá-los em oportunidades e encantamos para torná-los clientes fiéis.',
-  headline: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    'Após a entrega de oportunidades para o time de vendas, cabe à ele fazer uma abordagem consultiva e fechar novas contas. Com o trabalho do marketing na geração de interesse, esse processo é facilitado.',
+  headline: 'Venda mais e melhor para fidelizar seus clientes',
   lightText: true,
-  topLine: 'Execução das Ações de Marketing Digital',
+  topLine: 'Venda muito mais',
   img: require('../../images/svg-3.svg').default,
   alt: 'Image',
   start: 'true',
